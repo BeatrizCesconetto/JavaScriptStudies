@@ -1,7 +1,4 @@
-function enlistment() {
-let userAge = prompt("How old are you: ");
-let userGender = prompt("Type M for male or F for female:  ");
-
+function enlistment(userAge, userGender) {
     if (userAge >= 18 && userGender == "M") {
         console.log("You need to enlist in the military");
     } else if(userAge <= 18 && userGender == "M"){
@@ -10,3 +7,5 @@ let userGender = prompt("Type M for male or F for female:  ");
         console.log("You don't need to enlist in the military");
     }
 }
+
+enlistment(21, "M");
