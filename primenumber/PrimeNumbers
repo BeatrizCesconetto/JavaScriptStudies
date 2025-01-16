@@ -1,0 +1,7 @@
+function isPrime(number) {
+    for (var divisor = 2; divisor < number; divisor++) 
+        if (num % divisor == 0) return console.log("This isn't a prime number");
+        return console.log('This is a prime number');
+}
+
+isPrime(4);
