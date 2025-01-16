@@ -1,3 +1,5 @@
+console.log("You need to enlist in the military");
+
 function checkAge(userAge) {
 
     if (userAge >= 18) {
